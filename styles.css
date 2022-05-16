@@ -122,3 +122,17 @@ margin-left: 50px;
   overflow: hidden;
   flex-wrap: wrap;
 }
+
+/* Section Three - About Section */
+.icons {
+display: flex;
+gap: 200px;
+margin: 50px 100px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 50px;
+}
