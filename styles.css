@@ -124,6 +124,13 @@ margin-left: 50px;
 }
 
 /* Section Three - About Section */
+#about {
+  height: 400px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 150px;
+}
+
 .icons {
 display: flex;
 justify-content: space-between;
@@ -149,11 +156,16 @@ height: 600px;
 .contact {
   display: flex;
   justify-content: center;
+ 
 }
 
-.class  {
-  display: flex;
-  
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    
 }
 
 /* Footer */
