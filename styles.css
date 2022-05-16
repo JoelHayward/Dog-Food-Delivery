@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .preload {
@@ -178,6 +179,12 @@ textarea {
   padding: 12px 20px;
   margin: 8px 0;
   border: 2px solid rgb(0, 0, 0);
+  border-radius: 4px;
+}
+
+.submit-button {
+  padding: 10px;
+  border: 2px solid black;
   border-radius: 4px;
 }
 
