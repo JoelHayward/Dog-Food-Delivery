@@ -106,11 +106,21 @@
 }
 
 /* Information Section */
+.products {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.button-button {
+margin-top: 10px;
+padding: 10px 37px;
+color: #fff;
+background-color: rgb(27, 26, 26);
+}
 
 .info {
   display: flex;
-  justify-content: flex-end;
-  align-content: center;
   gap: 100px;
   height: 600px;
 }
@@ -125,14 +135,20 @@
 }
 
 #petbag {
-  flex: 50%;
+  /* flex: 50%; */
   justify-self: center;
   align-items: flex-end;
   width: 100%;
   height: auto;
   margin-top: 100px;
+  margin-left: 300px;
 }
 
+.food-form {
+  display: flex;
+  align-items: center;
+  margin-right:200px;
+}
 /* Section Two */
 
 .banner {

@@ -9,14 +9,14 @@
     <title>Pet Drop - Food Delivery</title>
   </head>
 
+<!-- 
+ <div class="preload">
+    <img class="gif" src="/Videos/loading.gif"></div> -->
 
-  <!-- <div class="preload">
-    <img class="gif" src="/Videos/loading.gif"></div>
-  <body> -->
 
-    
-    
-    <!-- Header  -->
+  <body>
+
+    <!-- Header video -->
     <header id="header" class="header">
       <video id="video" autoplay muted loop>
         <source
@@ -24,6 +24,8 @@
           alt="dog eating a treat"
         />
       </video>
+
+      <!-- header video overlay -->
       <div id="overlay">
         <img class="logo" src="/Images/petdrop.png" alt="Pet drop logo" />
         <nav class="navbar">
@@ -38,6 +40,9 @@
     </header>
 
     <!-- Section One -->
+    <div class="product">
+    <h2 >Products</h2>
+  </div>
     <section class="info">
       <div class="we-do">
       <p>
@@ -49,6 +54,21 @@
     </div>
     <div id="petbag">
       <img class="petfood-img" src="/Images/petfood.png" alt="pet food bag" />
+    </div>
+    <div class="food-form">
+      <form>
+        <label for="bag-size">Bag size:</label>
+          <select name="food" id="food" form="foodform">
+            <option value="select">select</option>
+            <option value="5">5kg - $30</option>
+            <option value="10">10kg - $60</option>
+            <option value="15">15kg - $90</option>
+            <option value="20">20kg - $120</option>
+          </select>
+          <div class="button-container">
+            <input class="button-button" type="submit" Value="Buy">
+          </div>
+      </form>
     </div>
     </section>
 
