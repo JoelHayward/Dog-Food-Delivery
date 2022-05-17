@@ -34,11 +34,7 @@
 
 
 
-@media screen and (max-width: 768px) {
-  #overlay, .navbar, .info {
-    flex-direction: column;
-  }
-}
+
 
 
 
@@ -100,13 +96,7 @@
   background-color: rgb(73, 71, 71);
 }
 
-@media screen and (max-width: 768px) {
 
-  .logo,
-  .navbar {
-    margin: 0;
-  }
-}
 
 /* Information Section */
 
@@ -217,4 +207,29 @@ textarea {
 .social {
   display: flex;
   gap: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+
+  #overlay,
+  .navbar,
+  .info,
+  #info {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo,
+  .navbar {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+  .navbar {
+    margin-top: 50px;
+  }
 }
