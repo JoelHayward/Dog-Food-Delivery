@@ -5,7 +5,7 @@
   font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.preload {
+/* .preload {
   display: flex;
   background: #fff;
   z-index: 2000;
@@ -19,7 +19,7 @@
   animation-name: preload;
   animation-duration: FadeOut 2s;
   animation-iteration-count: initial;
-  /* animation: FadeOut 5s; */
+  animation: FadeOut 5s;
   display: none;
 }
 
@@ -30,7 +30,13 @@
   100% {
     opacity: 0;
   }
-}
+} */
+
+
+
+
+
+
 
 /* Header Section */
 .header {
@@ -90,6 +96,8 @@
   background-color: rgb(73, 71, 71);
 }
 
+
+
 /* Information Section */
 
 .info {
@@ -129,7 +137,7 @@
 
 /* Section Three - About Section */
 #about {
-  height: 400px;
+  height: auto;
   justify-content: center;
   align-content: center;
   margin-top: 150px;
@@ -199,4 +207,29 @@ textarea {
 .social {
   display: flex;
   gap: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+
+  #overlay,
+  .navbar,
+  .info,
+  #info {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo,
+  .navbar {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+  .navbar {
+    margin-top: 50px;
+  }
 }
