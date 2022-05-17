@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* .preload {
@@ -31,12 +31,6 @@
     opacity: 0;
   }
 } */
-
-
-
-
-
-
 
 /* Header Section */
 .header {
@@ -69,6 +63,21 @@
   height: 100px;
 }
 
+.button-container {
+  width: 100%;
+}
+
+.button {
+  font-size: 20px;
+  position: relative;
+  justify-content: center;
+  padding: 20px 40px;
+  color: #fff;
+  background-color: rgb(27, 26, 26);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
 .logo {
   width: 200px;
   height: auto;
@@ -95,8 +104,6 @@
 .navbar a:hover {
   background-color: rgb(73, 71, 71);
 }
-
-
 
 /* Information Section */
 
@@ -132,7 +139,6 @@
   text-align: center;
   overflow: hidden;
   flex-wrap: wrap;
-  
 }
 
 /* Section Three - About Section */
@@ -172,6 +178,18 @@
 .contact {
   margin-bottom: 30px;
   font-size: 44px;
+  animation-name: contact-fade;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes contact-fade {
+  0% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 input[type="text"] {
@@ -212,7 +230,6 @@ textarea {
 /* Media Queries */
 
 @media screen and (max-width: 768px) {
-
   #overlay,
   .navbar,
   .info,
@@ -228,8 +245,19 @@ textarea {
   }
 }
 @media screen and (max-width: 768px) {
-  
   .navbar {
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    margin-top: 200px;
   }
 }
